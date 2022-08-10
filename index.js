@@ -17,7 +17,7 @@
 //     =====`-.____`.___ \_____/___.-`___.-'=====
 //                       `=---='
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// const server = require('./src/app.js');
+const server = require('./src/app.js');
 const { PORT } = process.env;
 const { conn } = require('./src/db.js');
 
